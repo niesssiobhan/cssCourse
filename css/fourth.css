@@ -1,0 +1,40 @@
+html {
+  width: 600px;
+}
+
+body {
+  background-color: #ffff99;
+}
+
+h1 {
+  color: #ff6600;
+  border-style: solid;
+  padding: 5px 0 5px 10px;
+  font-family: Impact;
+}
+
+h2 {
+  background-color: #ff6600;
+  color: #ffff99;
+  padding: 20px 0 10px 10px;
+  font-family: "Courier New";
+}
+
+ol {
+  background-color: #ffcc00;
+  padding: 5px 10px 5px 30px;
+}
+
+li {
+  color: #ffff99;
+  font-family: Helvetica;
+  padding: 10px 0 10px 0;
+  font-weight: bold;
+}
+
+p {
+  border-style: dotted;
+  border-color: #ffcc00;
+  padding: 10px 0 10px 10px;
+  font-family: Helvetica;
+}
