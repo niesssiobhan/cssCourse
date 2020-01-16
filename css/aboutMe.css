@@ -33,6 +33,7 @@ p {
 ol,
 ul {
   font-family: serif;
+  padding-left: 40px;
 }
 
 a {
