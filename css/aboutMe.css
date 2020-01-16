@@ -1,5 +1,6 @@
 html {
   background-color: gray;
+  margin: 10px 10px 10px 10px;
 }
 
 h1 {
@@ -45,4 +46,5 @@ a:hover {
 
 footer {
   font-weight: bold;
+  color: rgb(243, 233, 233);
 }
