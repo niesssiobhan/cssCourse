@@ -18,6 +18,12 @@ img {
   border-style: inset;
   margin-bottom: 20px;
 }
+div {
+  background-color: rgb(83, 80, 80);
+  padding-bottom: 5px;
+  margin-top: 5px;
+  border-style: groove;
+}
 
 h2 {
   font-style: italic;
@@ -30,7 +36,7 @@ h2 {
 }
 
 h3 {
-  color: rgb(85, 53, 53);
+  color: rgb(78, 26, 26);
   text-decoration: underline;
   text-align: center;
   font-size: 3em;
