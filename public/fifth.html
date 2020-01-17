@@ -8,8 +8,8 @@
 
   <body>
     <h1>Welcome to my page</h1>
-    <h2>Top Section</h2>
-    <p>
+    <h2 class="topSection">Top Section</h2>
+    <p class="topSection">
       Classes and IDs are "attribute selectors". This means that you can attach
       style to HTML elements based on that element's attributes. This empowers
       you to apply different style to items of the same HTML type.Classes are an
@@ -18,9 +18,9 @@
       are of different HTML tag types. You can use the class name with a period
       in front as the selector like so:
     </p>
-    <ul>
+    <ul class="topSection">
       <li>Class names must be single words</li>
-      <li>
+      <li id="importantItem">
         but you can include digits and dashes as long as the name begins with a
         letter
       </li>
@@ -29,8 +29,8 @@
         period (".")
       </li>
     </ul>
-    <h2>Bottom Section</h2>
-    <p>
+    <h2 class="bottomSection">Bottom Section</h2>
+    <p class="bottomSection">
       An ID is an HTML attribute that specifies a name or unique identifier for
       a particular HTML element. They are like classes with a very important
       distinction: the value of the ID attribute must be unique throughout the
@@ -41,7 +41,7 @@
       similar to how you create a selector for a class, except you replace the
       period with a hash symbol ("#") like in the code below.
     </p>
-    <ul>
+    <ul class="bottomSection">
       <li>
         How to use classes and IDs to independently target HTML elements of the
         same type
@@ -50,7 +50,9 @@
         How to apply different style to the same element based on the way the
         user interacts with that element using pseudo-classes
       </li>
-      <li>What the "Cascading" part of "Cascading Style Sheets" means</li>
+      <li id="unimportantItem">
+        What the "Cascading" part of "Cascading Style Sheets" means
+      </li>
       <li>
         How to scope style rules using contextual selectors and the HTML
         inheritance structure of your document
