@@ -20,24 +20,25 @@ button {
   color: #006666;
   border: 3px white solid;
 }
-button {
+button:hover {
   background-color: #006666;
   color: white;
 }
-button {
+button:active {
   background-color: #33cc99;
 }
-li {
+li:hover {
   background-color: white;
   color: #006666;
 }
-li {
+li:active {
   background-color: #33cc99;
   color: white;
 }
 a {
   color: white;
+  display: table-row;
 }
-a {
+a:active {
   color: #33cc99;
 }
