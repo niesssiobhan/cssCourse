@@ -1,0 +1,36 @@
+body {
+  font-family: Tahoma, sans-serif;
+}
+header,
+article,
+footer {
+  border: 10px #e9b000 solid;
+  margin: 30px;
+}
+h1 {
+  color: #e86e80;
+}
+article h1 {
+  background-color: #e86e80;
+  color: #ffffff;
+}
+body p {
+  background-color: #008f95;
+  color: #ffffff;
+}
+article p {
+  background-color: #ffffff;
+  color: #008f95;
+}
+
+body ol {
+  background-color: #e24e43;
+  color: #ffffff;
+}
+article ol {
+  background-color: #ffffff;
+  color: #e24e43;
+}
+ol ol {
+  border: 5px solid #e24e43;
+}
