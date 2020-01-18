@@ -1,0 +1,21 @@
+body {
+  background-color: #f8eee7;
+}
+p {
+  background-color: #f4decb;
+}
+p {
+  background-color: #94618e;
+  color: #f8eee7;
+}
+p {
+  background-color: #49274a;
+}
+p {
+  background-color: #ffffff;
+  color: #49274a;
+}
+p {
+  background-color: #b4dbc0 !important;
+  border: 2px dashed black;
+}
