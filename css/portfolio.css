@@ -71,6 +71,7 @@ article {
   font-size: 25px;
   padding-left: 7em;
   border-bottom: solid black 2px;
+  padding-bottom: 15px;
 }
 
 #experience {
@@ -78,6 +79,14 @@ article {
   font-size: 22px;
   margin: 0 auto;
   padding-left: 8em;
+}
+
+.quotes {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  margin: -20px 0 40px 0;
+  background-color: rgba(139, 62, 62, 0.308);
 }
 
 a:hover {
