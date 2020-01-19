@@ -69,12 +69,15 @@ article {
   font-family: serif;
   margin: 0 auto;
   font-size: 25px;
-  padding-left: 10em;
+  padding-left: 7em;
+  border-bottom: solid black 2px;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+#experience {
+  font-family: serif;
+  font-size: 22px;
+  margin: 0 auto;
+  padding-left: 8em;
 }
 
 a:hover {
