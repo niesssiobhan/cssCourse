@@ -1,0 +1,22 @@
+body {
+  background-color: #f8eee7;
+}
+header p,
+footer p {
+  background-color: #f4decb;
+}
+section p {
+  background-color: #94618e;
+  color: #f8eee7;
+}
+article p {
+  background-color: #49274a;
+}
+#specific {
+  background-color: #ffffff;
+  color: #49274a;
+}
+p:hover {
+  background-color: #b4dbc0 !important;
+  border: 2px dashed black;
+}
