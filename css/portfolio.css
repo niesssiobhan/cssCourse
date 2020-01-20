@@ -113,6 +113,10 @@ article {
   grid-template-columns: 25% 25% 25% 25%;
 }
 
+.socialContact img:hover {
+  transform: scale(1.5);
+}
+
 footer {
   font-weight: bold;
   color: rgb(243, 233, 233);
