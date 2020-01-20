@@ -30,7 +30,12 @@ h3,
   text-align: center;
 }
 
-img {
+h2,
+.quotes {
+  font-style: italic;
+}
+
+section img {
   width: 30%;
   margin-left: 28em;
   border-radius: 3px;
@@ -90,14 +95,22 @@ article {
 }
 
 .quotes {
-  font-style: italic;
   font-size: 20px;
   margin: -20px 0 40px 0;
   background-color: rgba(139, 62, 62, 0.308);
 }
 
-a:hover {
-  cursor: pointer;
+.socialContact img {
+  max-width: 35%;
+}
+
+.socialContact ul {
+  list-style: none;
+  text-align: center;
+  width: 50%;
+  margin: 3em 0 0 18em;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 footer {
