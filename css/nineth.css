@@ -26,23 +26,44 @@ header p {
 
 section {
   background-color: #fedc3d;
+  width: 75%;
+  min-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {
   border-bottom: 5px #000000 solid;
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 30px;
 }
 
 article {
   background-color: #ffffff;
+  /* max-width: 40%; */
 }
 
 #leftP {
+  max-width: 40%;
+  justify-content: start;
+  margin: 50px;
+  padding: 10px 15px 30px 15px;
+  margin-left: 10%;
 }
 
 #rightP {
+  max-width: 40%;
+  justify-content: start;
+  margin: 50px;
+  padding: 10px 15px 30px 15px;
+  margin-left: 50%;
 }
 
 h3 {
+  text-align: right;
 }
 
 footer {
