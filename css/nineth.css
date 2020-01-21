@@ -1,23 +1,31 @@
 body {
   font-family: Tahoma;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  background-color: #EC576B;
+  background-color: #ec576b;
   color: white;
-  border-bottom: 5px #FEDC3D solid;
+  border-bottom: 5px #fedc3d solid;
+  text-align: center;
 }
 
 header h1 {
-  border-bottom: 2px #FFFFFF solid;
+  border-bottom: 2px #ffffff solid;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 75px;
 }
 
 header p {
-  border-bottom: 2px #FFFFFF solid;
+  border-bottom: 2px #ffffff solid;
+  height: 50px;
 }
 
 section {
-  background-color: #FEDC3D;
+  background-color: #fedc3d;
 }
 
 h2 {
@@ -25,23 +33,21 @@ h2 {
 }
 
 article {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 #leftP {
-
 }
 
 #rightP {
-
 }
 
 h3 {
-
 }
 
 footer {
-  background-color: #4EC5C1;
-  border-top: 5px #FEDC3D solid;
+  background-color: #4ec5c1;
+  border-top: 5px #fedc3d solid;
   color: white;
+  text-align: center;
 }
