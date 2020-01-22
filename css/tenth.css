@@ -50,6 +50,16 @@ li {
   margin: 0 auto;
 }
 
+#topRight {
+  margin-top: 0;
+  float: right;
+}
+
+#bottomRight {
+  margin-top: 0;
+  float: right;
+}
+
 div {
   background-color: #fc4a1a;
   width: 250px;
