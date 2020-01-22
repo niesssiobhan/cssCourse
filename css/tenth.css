@@ -23,12 +23,21 @@ h2 {
 }
 
 #navigation {
-  list-style-type: none;
   height: 30px;
   width: 30%;
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+  display: inline-table;
+  text-align: center;
 }
 
 #navigation li:hover {
