@@ -1,9 +1,11 @@
-html {
+/* html {
   max-width: 75%;
-}
+} */
 
 body {
   background-color: lightgrey;
+  margin: auto;
+  max-width: 75%;
 }
 
 header {
