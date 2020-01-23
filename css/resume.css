@@ -1,6 +1,6 @@
-/* html {
-  max-width: 75%;
-} */
+html {
+  background-color: white;
+}
 
 body {
   background-color: lightgrey;
@@ -12,7 +12,7 @@ header {
   background-color: whitesmoke;
   float: left;
   width: 100%;
-  height: 115px;
+  height: 120px;
   /* border-bottom: black; */
 }
 
@@ -38,6 +38,10 @@ header ul {
   position: relative;
   padding-right: 8em;
   list-style: none;
+}
+
+header a {
+  text-decoration: none;
 }
 
 #skills {
