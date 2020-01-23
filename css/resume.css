@@ -56,7 +56,10 @@ header a {
   text-decoration: underline black;
 }
 
-h2 {
+main h2 {
+  text-align: center;
+  color: rgb(1, 96, 112);
+  text-decoration: underline black;
 }
 
 h3 {
@@ -71,10 +74,22 @@ main ul:nth-child(1) {
 main ul:nth-child(2) {
 }
 
+section h2 {
+  text-align: center;
+  color: rgb(1, 96, 112);
+  text-decoration: underline black;
+}
+
 section ul:nth-child(1) {
 }
 
 section ul:nth-child(2) {
+}
+
+article h2 {
+  text-align: center;
+  color: rgb(1, 96, 112);
+  text-decoration: underline black;
 }
 
 article ul:nth-child(1) {
