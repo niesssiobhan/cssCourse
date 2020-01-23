@@ -41,8 +41,14 @@ header ul {
   list-style: none;
 }
 
-header a {
+header a,
+main a {
   text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline black;
 }
 
 #skills {
@@ -55,6 +61,11 @@ header a {
   color: rgb(1, 96, 112);
   text-decoration: underline black;
 }
+main {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 main h2 {
   text-align: center;
@@ -62,16 +73,22 @@ main h2 {
   text-decoration: underline black;
 }
 
-h3 {
+main div {
+  display: inline-block;
+  width: 45%;
 }
 
-main ul {
+main div:nth-child(2) {
+  /* width: 45%; */
 }
 
-main ul:nth-child(1) {
+main div:nth-child(3) {
+  /* width: 45%; */
+  float: right;
 }
-
-main ul:nth-child(2) {
+main div:nth-child(4) {
+  /* width: 45%; */
+  margin: auto;
 }
 
 section h2 {
@@ -80,10 +97,10 @@ section h2 {
   text-decoration: underline black;
 }
 
-section ul:nth-child(1) {
+section ul:nth-child(2) {
 }
 
-section ul:nth-child(2) {
+section ul:nth-child(3) {
 }
 
 article h2 {
