@@ -73,22 +73,19 @@ main h2 {
   text-decoration: underline black;
 }
 
-main div {
+div {
   display: inline-block;
   width: 45%;
 }
 
-main div:nth-child(2) {
-  /* width: 45%; */
-}
-
-main div:nth-child(3) {
-  /* width: 45%; */
+div:nth-child(3) {
   float: right;
 }
-main div:nth-child(4) {
-  /* width: 45%; */
-  margin: auto;
+
+#spaceRover {
+  margin-left: 16em;
+  margin-bottom: 20px;
+  width: 50%;
 }
 
 section h2 {
