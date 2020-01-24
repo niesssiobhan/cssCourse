@@ -88,16 +88,15 @@ div:nth-child(3) {
   width: 50%;
 }
 
+section {
+  margin: 0 auto;
+  width: 60%;
+}
+
 section h2 {
   text-align: center;
   color: rgb(1, 96, 112);
   text-decoration: underline black;
-}
-
-section ul:nth-child(2) {
-}
-
-section ul:nth-child(3) {
 }
 
 article h2 {
